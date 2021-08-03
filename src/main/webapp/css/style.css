@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+}
+
+.container__section-left {
+  flex-basis: 70%;
+  position: relative;
+}
